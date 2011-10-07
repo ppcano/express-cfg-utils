@@ -54,3 +54,5 @@ express.HTTPSServer.prototype.useCfg = function(app_path){
 };
 
 
+module.exports.NotFoundRouteError = require('./lib/errors').NotFoundRouteError;
+module.exports.NotFoundModelError = require('./lib/errors').NotFoundModelError;

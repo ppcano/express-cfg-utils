@@ -13,7 +13,7 @@ exports.createConfig = function(app_path){
   var config = cfg.createConfig(); 
 
   // it is called from index
-  app_path = app_path || this._lookUpRootAppDir( path.dirname( module.parent.parent.filename ) );  
+  app_path = app_path || this._lookUpRootAppDir( path.dirname( module.parent.filename ) );  
 
 
   config.set('path', app_path);

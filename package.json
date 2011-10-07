@@ -1,0 +1,20 @@
+{
+  "author": "Pepe Cano <http://github.com/ppcano>",
+  "name": "express-cfg-utils",
+  "description": "Common-utils and conventions used on express",
+  "version": "0.0.1",
+  "private": true, 
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ppcano/express-cfg-utils.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": "0.4.7"
+  },
+  "devDependencies": {
+     "express": "2.4.x"
+  },
+  "dependencies": {
+  }
+}

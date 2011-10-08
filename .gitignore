@@ -1,0 +1,9 @@
+node_modules
+tmp
+lib-cov
+*.pid
+*.log
+*.swp
+*.sock
+*.gz
+*.config.json
